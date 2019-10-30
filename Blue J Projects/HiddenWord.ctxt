@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=guess
+comment0.target=java.lang.String\ getHint(java.lang.String)
+comment0.text=\ public\ String\ getHint()\r\n\ \ \ \ {\r\n\ \ \ \ String\ word\ \=\ "\ ";\r\n\r\n\ \ \ \ boolean\ blap\ \=\ word.contains("H");\r\n\ \ \ \ boolean\ blep\ \=\ word.contains("A");\r\n\ \ \ \ boolean\ blip\ \=\ word.contains("R");\r\n\ \ \ \ boolean\ blop\ \=\ word.contains("P");\r\n\ \ \ \ boolean\ blup\ \=\ word.contains("S");\r\n\r\n\ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ word.length();\ i++)\r\n\ \ \ \ {\r\n\ \ \ \ if\ (word.substring(i,\ i+1).equals(word.substring(i,\ i+1)))\r\n\ \ \ \ {\r\n\ \ \ \ System.out.println(blap);\r\n\r\n\ \ \ \ return\ word;\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ return\ word;\r\n\ \ \ \ }\r\n
+numComments=1
